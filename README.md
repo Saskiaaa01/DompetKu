@@ -1,66 +1,114 @@
-# 💰 DompetKu
+# 💰 DompetKu — Personal Finance Management System
 
-**DompetKu** adalah aplikasi web pengelolaan keuangan pribadi yang dikembangkan menggunakan Laravel. Aplikasi ini dirancang untuk membantu pengguna mencatat dan mengelola transaksi keuangan secara lebih terstruktur.
+DompetKu is a personal finance management web application developed using Laravel. It is designed to help users record, organize, and monitor their personal financial transactions, including income and expenses, in a structured way.
 
-## ✨ Fitur Utama
+## ✨ Key Features
 
-- Pencatatan transaksi keuangan.
-- Pengelolaan data pemasukan dan pengeluaran.
-- Pengelompokan transaksi berdasarkan kategori.
-- Penyimpanan dan pengelolaan data menggunakan database.
+- **Transaction Management** — Record and manage financial transactions.
+- **Income Management** — Organize incoming funds.
+- **Expense Management** — Track outgoing funds.
+- **Category Management** — Group transactions based on categories.
+- **Database Management** — Store and manage financial data systematically.
 
-## 🛠️ Teknologi
+## 🛠️ Tech Stack
 
-- PHP
-- Laravel 12
-- MySQL
-- Blade
+| Technology | Purpose |
+|---|---|
+| PHP | Backend programming language |
+| Laravel 12 | Web application framework |
+| MySQL | Relational database |
+| Blade | Frontend templating |
+| HTML & CSS | User interface |
+| Git & GitHub | Version control |
 
-## 🚀 Instalasi
+## 📸 Application Preview
 
-1. Clone repository:
+*Screenshots will be added after application revalidation.*
 
-   ```bash
-   git clone https://github.com/Saskiaaa01/DompetKu.git
-   ```
+Suggested screenshots:
+- Dashboard
+- Transaction Management
+- Income and Expense Pages
+- Category Management
 
-2. Masuk ke direktori project:
+## 🗄️ Database Design
 
-   ```bash
-   cd DompetKu
-   ```
+The database documentation and Entity Relationship Diagram (ERD) will be added after reviewing the application's actual database structure.
 
-3. Install dependencies:
+## ⚙️ Installation & Setup
 
-   ```bash
-   composer install
-   ```
+### 1. Clone the repository
 
-4. Salin file konfigurasi:
+```bash
+git clone https://github.com/Saskiaaa01/DompetKu.git
+```
 
-   ```bash
-   cp .env.example .env
-   ```
+### 2. Navigate to the project directory
 
-5. Generate application key:
+```bash
+cd DompetKu
+```
 
-   ```bash
-   php artisan key:generate
-   ```
+### 3. Install PHP dependencies
 
-6. Atur konfigurasi database pada file `.env`.
+```bash
+composer install
+```
 
-7. Jalankan migrasi:
+### 4. Install frontend dependencies
 
-   ```bash
-   php artisan migrate
-   ```
+```bash
+npm install
+```
 
-8. Jalankan aplikasi:
+### 5. Configure environment variables
 
-   ```bash
-   php artisan serve
-   ```
+```bash
+cp .env.example .env
+```
+
+Configure your database credentials in the `.env` file.
+
+### 6. Generate application key
+
+```bash
+php artisan key:generate
+```
+
+### 7. Run database migrations
+
+```bash
+php artisan migrate
+```
+
+### 8. Build frontend assets
+
+```bash
+npm run build
+```
+
+### 9. Start the development server
+
+```bash
+php artisan serve
+```
+
+Open the local application at:
+
+`http://127.0.0.1:8000`
+
+## 🧪 Testing & Quality Assurance
+
+Application revalidation is planned to verify:
+
+- Application accessibility.
+- Transaction management functionality.
+- Income and expense recording.
+- Category management.
+- Database operations.
+- Application stability.
+
+Test results will be documented after execution.
 
 ## 👩‍💻 Developer
 
@@ -69,8 +117,9 @@
 Information Systems Student  
 Universitas Bina Sarana Informatika
 
-GitHub: [@Saskiaaa01](https://github.com/Saskiaaa01)
+- GitHub: [@Saskiaaa01](https://github.com/Saskiaaa01)
+- LinkedIn: [Saskia Syabani](https://www.linkedin.com/in/saskia-syabani/)
 
 ---
 
-Developed as a web development project.
+*Developed as a personal web development project to explore Laravel application development, database management, and software quality assurance.*
